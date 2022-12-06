@@ -4,7 +4,7 @@ import { useOutsideClickWatcher } from '@/hooks/useOutsideClickWatcher';
 import { Datepicker } from './Datepicker';
 
 const normalClasses =
-	'border border-gray-300 focus:border-indigo-500 focus:ring-indigo-300';
+	'border border-gray-300 focus:border-[#FB9300] focus:ring-[#FB9300]';
 const errorClasses = 'border border-red-500 focus:ring-red-300';
 
 export function DatepickerInput({

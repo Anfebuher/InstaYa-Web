@@ -29,7 +29,7 @@ export function SignUp() {
 			<div className="w-full bg-white rounded-lg shadow md:mt-0 sm:max-w-2xl">
 				<div className="p-8 space-y-6">
 					<h1 className="text-2xl font-bold text-gray-900">
-						Formulario de Registro
+						Registro
 					</h1>
 					<SignUpForm />
 				</div>

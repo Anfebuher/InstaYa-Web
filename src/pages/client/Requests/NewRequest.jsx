@@ -40,15 +40,16 @@ export async function action({ request }) {
 export function NewRequest() {
 	return (
 		<section className="flex flex-col items-center justify-center px-6 py-8 h-screen">
+			<Logo/>
 			<div className="w-full bg-white rounded-lg shadow md:mt-0 sm:max-w-3xl">
 				<div className="flex flex-col p-8 space-y-4">
 					<div className="flex w-full justify-between">
 						<h1 className="flex align-center text-2xl text-gray-900">
-							<Logo spin /> &nbsp; - Nueva Solicitud
+							 &nbsp;Nueva Solicitud
 						</h1>
 						<Link
 							to="/client/requests"
-							className="pt-2 text-slate-500 italic cursor-pointer hover:underline"
+							className="pt-2 text-[#FB9300] cursor-pointer hover:underline"
 						>
 							Volver
 						</Link>

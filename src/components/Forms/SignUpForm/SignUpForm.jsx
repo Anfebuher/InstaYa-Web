@@ -169,17 +169,17 @@ export function SignUpForm() {
 					hasError={!success}
 					isLoading={isSubmitting}
 				>
-					Terminar registro
+					Crear cuenta
 				</Button>
 
 				<span className="mt-2 h-8 text-red-500">{!success && issue}</span>
 			</div>
 
-			<p className="text-sm font-normal text-gray-500 ">
+			<p className="text-sm font-normal text-gray-500 text-center">
 				¿Ya tienes una cuenta? &nbsp;
 				<Link
 					to="/auth/sign-in"
-					className="font-medium text-indigo-600 hover:underline "
+					className="font-medium text-[#FB9300] hover:underline "
 				>
 					Inicia sesi&oacute;n!
 				</Link>

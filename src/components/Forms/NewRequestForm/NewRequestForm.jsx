@@ -146,7 +146,7 @@ export function NewRequestForm() {
 
 	return (
 		<Form
-			className="flex flex-col pr-8 pl-2 space-y-6 w-full max-h-150 overflow-y-auto scrollbar-thin scrollbar-thumb-rounded-full scrollbar-track-rounded-full scrollbar-thumb-indigo-600 scrollbar-track-indigo-300"
+			className="flex flex-col pr-8 pl-2 space-y-6 w-full max-h-150 overflow-y-auto scrollbar-thin scrollbar-thumb-rounded-full scrollbar-track-rounded-full scrollbar-thumb-[#FB9300] scrollbar-track-slate-200"
 			action="/client/requests/new"
 			method="post"
 		>

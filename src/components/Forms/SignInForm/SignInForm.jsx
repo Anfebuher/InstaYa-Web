@@ -4,7 +4,7 @@ import { Button } from '@/components/Button';
 import { useFormFields } from '@/hooks/useFormFields';
 import { Field } from '../FormComponents';
 
-const initialValues = { email: 'dmejia@example.com', password: '12345' };
+const initialValues = { email: 'user@example.com', password: '12345' };
 
 export const formFields = ['email', 'password'];
 
@@ -66,13 +66,13 @@ export function SignInForm() {
 				Ingresar
 			</Button>
 
-			<p className="text-sm font-normal text-gray-500 ">
+			<p className="text-sm font-normal text-gray-500 text-center ">
 				¿No tienes cuenta? &nbsp;
 				<Link
 					to="/auth/sign-up"
 					className="font-medium text-[#FB9300] hover:underline "
 				>
-					Registrate!
+					Regístrate!
 				</Link>
 			</p>
 		</Form>
